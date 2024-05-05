@@ -27,7 +27,7 @@ public class SwaggerConfiguration {
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
                 .title("Spring Boot API Test with Swaager")
-                .description("강남대학교 12기 멋쟁이사자처럼 백엔드 세션")
+                .description("멋쟁이사자처럼 백엔드 4주차 과제")
                 .version("1.0.0")
                 .build();
     }
