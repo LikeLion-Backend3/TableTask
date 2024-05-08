@@ -48,7 +48,7 @@ public class MemberDAOImpl implements MemberDAO {
             Member member = findMember.get();
 
             member.setName(name);
-            member.setUpdateAt(LocalDateTime.now());
+            member.setUpdatedAt(LocalDateTime.now());
 
             result = memberRepository.save(member);
         } else {

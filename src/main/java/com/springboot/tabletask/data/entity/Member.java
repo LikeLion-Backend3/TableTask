@@ -42,5 +42,5 @@ public class Member {
     private LocalDateTime createAt;
 
     @Column
-    private LocalDateTime updateAt;
+    private LocalDateTime updatedAt;
 }
