@@ -5,11 +5,11 @@ import com.springboot.tabletask.data.entity.Member;
 //DAO 클래스는 인터페이스-구현체 구성으로 생성
 
 public interface MemberDAO {
-    Member insertLion(Member member);
+    Member insertMember(Member member);
 
-    Member selectLion(String email) throws Exception;
+    Member selectMember(String email) throws Exception;
 
-    Member updateLionName(String email, String name) throws Exception;
+    Member updateMemberName(String email, String name) throws Exception;
 
-    void deleteLion(String email) throws Exception;
+    void deleteMember(String email) throws Exception;
 }
